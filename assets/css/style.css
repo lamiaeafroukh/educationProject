@@ -816,7 +816,7 @@ section {
   text-align: center;
   margin-bottom: 20px;
   background: #fff;
-  border: 1px solid #eef0ef;
+  border: 3px solid black;
 }
 
 .trainers .member img {
@@ -1123,7 +1123,7 @@ section {
   border-top: 4px solid #fff;
   padding: 30px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  margin-top: -60px;
+  margin-top: -10px;
   transition: 0.3s;
 }
 
@@ -1164,6 +1164,31 @@ section {
 
 .events .card:hover .card-body .card-title a {
   color: #5fcf80;
+}
+.events p span{
+  font-size: 30px;
+}
+.pag{
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style:inherit ;
+}
+.events p ul{
+  list-style-type: disc;
+  font-size: 15px;
+}
+.events li{
+
+  font-size: 15px;
+}
+.pann{
+  width: 40%;
+}
+ .dv{
+  size: 2%;
+  position: relative;
+  margin-left: 30%;
+  align-items: center;
 }
 
 /*--------------------------------------------------------------
