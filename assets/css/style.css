@@ -849,12 +849,14 @@ section {
 }
 
 .trainers .member .social a {
-  color: #7e9486;
+  color: #83C5BE;
   transition: 0.3s;
 }
 
 .trainers .member .social a:hover {
-  color: #5fcf80;
+  background: white;
+  color: black;
+  border: solid black;
 }
 
 .trainers .member .social i {

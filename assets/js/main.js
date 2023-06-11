@@ -133,3 +133,13 @@
   new PureCounter();
 
 })()
+// let groupa=document.getElementById('groupe a');
+// let mn=document.getElementById('main');
+// let maiin=document.getElementsByClassName('mn');
+
+// function a(){
+//   maiin.style.display='none';
+//   man.style.display='block';
+
+   
+// }
