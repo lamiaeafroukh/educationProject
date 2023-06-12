@@ -46,19 +46,19 @@ session_start();
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
 
-      <h1 class="logo me-auto"><a href="index.html">U DRIVE</a></h1>
+      <h1 class="logo me-auto"><a href="index.php">U DRIVE</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      <!-- <a href="index.php" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <!-- <li><a href="courses.html">A Propos de Permis</a></li> -->
-          <li class="dropdown"><a href="#" href="trainers.html"><span>Les Types De Permis</span> <i class="bi bi-chevron-down"></i></a>
+          <li><a href="index.php">Home</a></li>
+          <li><a href="about.php">About</a></li>
+          <!-- <li><a href="courses.php">A Propos de Permis</a></li> -->
+          <li class="dropdown"><a href="#" href="trainers.php"><span>Les Types De Permis</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="apermis.html">Les Permis De Catégorie A</a></li>   
-               <li><a href="trainers.html">Les Permis De Catégorie B</a></li>
+              <li><a href="apermis.php">Les Permis De Catégorie A</a></li>   
+               <li><a href="trainers.php">Les Permis De Catégorie B</a></li>
               <li><a href="#">Les Permis De Catégorie AM</a></li>
               <li><a href="#">Les Permis De Catégorie A1</a></li>
             
@@ -72,13 +72,13 @@ session_start();
 
               
           
-<l<li class="dropdown"><a href="#"  href="events.html" ><span>Le Code De La Route</span> <i class="bi bi-chevron-down"></i></a>
+<li class="dropdown"><a href="#"  href="events.php" ><span>Le Code De La Route</span> <i class="bi bi-chevron-down"></i></a>
 
   <ul>
     <li class="dropdown"><a href="#"><span>Signalisation</span> <i class="bi bi-chevron-right"></i></a>
       <ul>
-        <li><a href="interdiction.html">Interdiction</a></li>
-        <li><a href="events.html">Signalisation Verticale</a></li>
+        <li><a href="interdiction.php">Interdiction</a></li>
+        <li><a href="events.php">Signalisation Verticale</a></li>
         <li><a href="#">Signalisation Horizontale</a></li>
         <li><a href="#">Danger</a></li>
         <li><a href="#">Obligation</a></li>
@@ -118,8 +118,8 @@ session_start();
               <li><a href="#">Drop Down 4</a></li>
             </ul>
           </li> 
-           <li><a   class="active"  href="pricing.html">Coût</a></li>  
-          <li><a href="contact.html">Contact</a></li>
+           <li><a   class="active"  href="pricing.php">Coût</a></li>  
+          <li><a href="contact.php">Contact</a></li>
           <li class="dropdown">
         <p><?php 
         
@@ -139,7 +139,7 @@ session_start();
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
-      <!-- <a href="courses.html" class="get-started-btn">Get Started</a> -->
+      <!-- <a href="courses.php" class="get-started-btn">Get Started</a> -->
 
     </div>
   </header><!-- End Header -->
@@ -159,7 +159,7 @@ session_start();
 
         <div class="row">
 
-          <div class="col-lg-3 col-md-6">
+          <div class="col-lg-6 col-md-6">
             <div class="box">
               <h3>Free</h3>
               <h4><sup>$</sup>0<span> / month</span></h4>
@@ -176,7 +176,7 @@ session_start();
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 mt-4 mt-md-0">
+          <div class="col-lg-6 col-md-6 mt-4 mt-md-0">
             <div class="box featured">
               <h3>Business</h3>
               <h4><sup>$</sup>19<span> / month</span></h4>
@@ -193,7 +193,7 @@ session_start();
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+          <!-- <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
             <div class="box">
               <h3>Developer</h3>
               <h4><sup>$</sup>29<span> / month</span></h4>
@@ -226,7 +226,7 @@ session_start();
                 <a href="#" class="btn-buy">Buy Now</a>
               </div>
             </div>
-          </div>
+          </div> -->
 
         </div>
 

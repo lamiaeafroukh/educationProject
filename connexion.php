@@ -10,7 +10,7 @@ $_SESSION['id_client'];
 
 $servername = "localhost";
 $username = "root";
-$password = "root";
+$password = "";
 
 $conn = new PDO("mysql:host=$servername;dbname=login",
     $username, $password) ;
@@ -43,7 +43,7 @@ if($m==2){
 
 }
 elseif($m==3){
-    header("location:pageadmin.html");
+    header("location:pageadmin.php");
     $_SESSION['error_login']="";
 }
 else{

@@ -58,19 +58,19 @@ session_start();
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
 
-      <h1 class="logo me-auto"><a href="index.html">U DRIVE</a></h1>
+      <h1 class="logo me-auto"><a href="index.php">U DRIVE</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      <!-- <a href="index.php" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a class="active"   href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <!-- <li><a href="courses.html">à Propos</a></li> -->
-          <li class="dropdown"><a href="#" href="trainers.html"><span>Les Types De Permis</span> <i class="bi bi-chevron-down"></i></a>
+          <li><a class="active"   href="index.php">Home</a></li>
+          <li><a href="about.php">About</a></li>
+          <!-- <li><a href="courses.php">à Propos</a></li> -->
+          <li class="dropdown"><a href="#" href="trainers.php"><span>Les Types De Permis</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="apermis.html">Les Permis De Catégorie A</a></li>   
-               <li><a href="trainers.html">Les Permis De Catégorie B</a></li>
+              <li><a href="apermis.php">Les Permis De Catégorie A</a></li>   
+               <li><a href="trainers.php">Les Permis De Catégorie B</a></li>
               <li><a href="#">Les Permis De Catégorie AM</a></li>
               <li><a href="#">Les Permis De Catégorie A1</a></li>
           
@@ -84,13 +84,13 @@ session_start();
 
               
           
-<li class="dropdown"><a href="#"  href="events.html" ><span>Le Code De La Route</span> <i class="bi bi-chevron-down"></i></a>
+<li class="dropdown"><a href="#"  href="events.php" ><span>Le Code De La Route</span> <i class="bi bi-chevron-down"></i></a>
 
     <ul>
       <li class="dropdown"><a href="#"><span>Signalisation</span> <i class="bi bi-chevron-right"></i></a>
         <ul>
-          <li><a href="interdiction.html">Interdiction</a></li>
-          <li><a href="events.html">Signalisation Verticale</a></li>
+          <li><a href="interdiction.php">Interdiction</a></li>
+          <li><a href="events.php">Signalisation Verticale</a></li>
           <li><a href="#">Signalisation Horizontale</a></li>
           <li><a href="#">Danger</a></li>
           <li><a href="#">Obligation</a></li>
@@ -130,8 +130,8 @@ session_start();
               <li><a href="#">Drop Down 4</a></li>
             </ul>
           </li>
-          <li><a    href="pricing.html">Coût</a></li>    
-          <li><a href="contact.html">Contact</a></li>
+          <li><a    href="pricing.php">Coût</a></li>    
+          <li><a href="contact.php">Contact</a></li>
           <li class="dropdown">
         <p><?php 
         
@@ -158,7 +158,7 @@ session_start();
 
       </nav><!-- .navbar -->
 
-      <!-- <a href="courses.html" class="get-started-btn">Get Started</a> -->
+      <!-- <a href="courses.php" class="get-started-btn">Get Started</a> -->
 
     </div>
   </header><!-- End Header -->
@@ -168,7 +168,7 @@ session_start();
     <div class="container position-relative" data-aos="zoom-in" data-aos-delay="100">
       <h1>Learning Today,<br>Driving Tomorrow</h1>
       <h2>Tu viens d'avoir 18 ans et tu veux conduire ?</h2>
-      <a href="courses.html" class="btn-get-started">Commencer</a>
+      <a href="courses.php" class="btn-get-started">Commencer</a>
     </div>
   </section><!-- End Hero -->
 
@@ -246,7 +246,7 @@ session_start();
                On vise à aider cette nouvelle génération à apprendre le code routier et Être plus sensible au dangers de la route , ainsi qu'être comfortable à conduire en les évitant.
               </p>
               <div class="text-center">
-                <a href="about.html" class="more-btn">Learn More <i class="bx bx-chevron-right"></i></a>
+                <a href="about.php" class="more-btn">Learn More <i class="bx bx-chevron-right"></i></a>
               </div>
             </div>
           </div>
@@ -384,7 +384,7 @@ session_start();
                   <p class="price">$10</p>
                 </div>
 
-                <h3><a href="interdiction.html">Interdiction</a></h3>
+                <h3><a href="interdiction.php">Interdiction</a></h3>
                 <p>quelles sont les paneaux d'interdictions et quelle sont leurs types</p>
               </div>
             </div>
@@ -401,7 +401,7 @@ session_start();
                   <p class="price">$18</p>
                 </div>
 
-                <h3><a href="course-details.html">Changement de direction</a></h3>
+                <h3><a href="course-details.php">Changement de direction</a></h3>
                 <p>Quoi faire en changeant de direction, et quand on peut le faire</p>
                 
               </div>
@@ -416,7 +416,7 @@ session_start();
                   <p class="price">$15</p>
                 </div>
 
-                <h3><a href="events.html">Signalisation Verticale</a></h3>
+                <h3><a href="events.php">Signalisation Verticale</a></h3>
                 <p>signification de chaque panneau et son importance</p>
                
               </div>
