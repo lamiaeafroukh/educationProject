@@ -815,8 +815,8 @@ section {
 .trainers .member {
   text-align: center;
   margin-bottom: 20px;
-  background: #fff;
-  border: 3px solid black;
+  background: #83C5BE;
+  border: 3px solid;
 }
 
 .trainers .member img {

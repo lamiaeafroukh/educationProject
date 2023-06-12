@@ -88,13 +88,56 @@ session_start();
         <li><a href="#">Flèches</a></li>
       </ul>
     </li>
-    <li><a href="#">Les Feux</a></li>
-    <li><a href="#">Les Priorites De Passage</a></li>
-    <li><a href="#">L'Arret-Le Stationnement </a></li>
+    <li class="dropdown"><a href="#"><span>Les Feux</span><i class="bi bi-chevron-right"></i></</a>
+      <ul>
+        <li><a href="interdiction.php">Feux Tricolors</a></li>
+        <li><a href="#">Feux Ronds</a></li>
+        <li><a href="#">Ligne D'effet</a></li>
+        <li><a href="#">Feux et Forme De Flèche</a></li>
+        <li><a href="#">Flèche Supplémentaire</a></li>
+        <li><a href="#">Cas Particuliers</a></li>
+        <li><a href="#">Feux avec panneaux</a></li>
+        <li><a href="#">Feux Clignotants</a></li>
+        <li><a href="#">Autres Feux</a></li>
+      </ul>
+  
+    </li>
+    <li class="dropdown" ><a href="#"><span>Les Priorites De Passage</span><i class="bi bi-chevron-right"></i></a>
+     <ul>
+        <li><a href="#">Priorité à droite</a></li>
+        <li><a href="#">Cédez le Passage</a></li>
+        <li><a href="#">Stop</a></li>
+        <li><a href="#">priorité Ponctuelle</a></li>
+        <li><a href="#">Caractère Prioritaire </a></li>
+        <li><a href="#">Fin De Caractère Prioritaire </a></li>
+        <li><a href="#">Carrefour à Sens Giratoire</a></li>
+        <li><a href="#">Franchissement</a></li>
+       
+
+      </ul>
+  
+    </li>
+     <li class="dropdown" ><a href="#"><span>L'Autoroute</span><i class="bi bi-chevron-right"></i></a>
+     <ul>
+        <li><a href="#">Vers L'Autoroute</a></li>
+        <li><a href="#">Entrée</a></li>
+        <li><a href="#">Caractéristiques</a></li>
+        <li><a href="#">Régles de circulation</a></li>
+        <li><a href="#">Arrêt-Stationnement</a></li>
+        <li><a href="#">Intempéries</a></li>
+        <li><a href="#">Bifurcation</a></li>
+        <li><a href="#">Croisement et Jonction </a></li>
+        <li><a href="#">Sortie</a></li>
+        <li><a href="#">Route pour Automobiles</a></li>
+
+      </ul>
+  
+    </li>
+    <li><a href="#">L'Arrêt-Le Stationnement </a></li>
     <li><a href="#">La Vitesse </a></li>
-    <li><a href="#">Les regles de Circulation </a></li>
+    <li><a href="#">Les Régles de Circulation </a></li>
     <li><a href="#">Le Croisement-le Depassement </a></li>
-    <li><a href="#">L'Autoroute</a></li>
+   
     <li><a href="#">Les Accidents </a></li>
     <li><a href="#">Le Conducteur </a></li>
     <li><a href="#">Le vehicule </a></li>
