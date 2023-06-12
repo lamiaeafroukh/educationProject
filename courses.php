@@ -1,3 +1,6 @@
+<?php 
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -51,14 +54,14 @@
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
-          <!-- <li><a href="courses.html">A Propos de Permis</a></li> -->
-          <li class="dropdown"><a href="#"  class="active"href="trainers.html"><span>Les Types De Permis</span> <i class="bi bi-chevron-down"></i></a>
+          <!-- <li><a class="active"   href="courses.html">A Propos de Permis</a></li> -->
+          <li class="dropdown"><a href="#" href="trainers.html"><span>Les Types De Permis</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="apermis.html">Les Permis De Catégorie A</a></li>   
-               <li><a href="trainers.html">Les Permis De Catégorie B</a></li>
+              <li><a href="trainers.html">Les Permis De Catégorie B</a></li>
               <li><a href="#">Les Permis De Catégorie AM</a></li>
               <li><a href="#">Les Permis De Catégorie A1</a></li>
-           
+             
               <li><a href="#">Les Permis De Catégorie C</a></li>
               <li><a href="#">Les Permis De Catégorie D</a></li>
               <li><a href="#">Les Permis De Catégorie E B </a></li>
@@ -67,9 +70,9 @@
               </ul>
           </li>
 
-       <li><a    href="pricing.html">Coût</a></li>           
+                
           
- <li class="dropdown"><a href="#"  href="events.html" ><span>Le Code De La Route</span> <i class="bi bi-chevron-down"></i></a>
+<<li class="dropdown"><a href="#"  href="events.html" ><span>Le Code De La Route</span> <i class="bi bi-chevron-down"></i></a>
 
   <ul>
     <li class="dropdown"><a href="#"><span>Signalisation</span> <i class="bi bi-chevron-right"></i></a>
@@ -115,7 +118,24 @@
               <li><a href="#">Drop Down 4</a></li>
             </ul>
           </li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a    href="pricing.html">Coût</a></li>  
+          <li><a href="contact.html">Contact</a></li> 
+          <li class="dropdown">
+        <p><?php 
+        
+        if(isset($_SESSION['nom'])){
+   
+                           echo  $_SESSION['nom']." ".$_SESSION['prenom'];
+                          // echo $_SESSION['id_client']; id de client
+                       }
+   
+          ?></p>
+       
+          <a href="login.php" ><span class="bi bi-person"></span></a>
+          <!-- End Profile Iamge Icon --> <ul>
+          <li><a href="deconnexion.php" ><span class="bi bi-door-open"></span></a></li></ul>
+          </li>
+
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -125,79 +145,73 @@
     </div>
   </header><!-- End Header -->
 
-  <main  class="mn" id="main" data-aos="fade-in">
+  <main id="main" data-aos="fade-in">
 
     <!-- ======= Breadcrumbs ======= -->
     <div class="breadcrumbs">
       <div class="container">
-        <h2>Qu’est-ce que le permis B pour conduire ?</h2>
-        <!-- <p>Est dolorum ut non facere possimus quibusdam eligendi voluptatem. Quia id aut similique quia voluptas sit quaerat debitis. Rerum omnis ipsam aperiam consequatur laboriosam nemo harum praesentium. </p> -->
+        <h2>Courses</h2>
+        <p>Est dolorum ut non facere possimus quibusdam eligendi voluptatem. Quia id aut similique quia voluptas sit quaerat debitis. Rerum omnis ipsam aperiam consequatur laboriosam nemo harum praesentium. </p>
       </div>
     </div><!-- End Breadcrumbs -->
 
-    <!-- ======= Trainers Section ======= -->
-    <section id="trainers" class="trainers">
+    <!-- ======= Courses Section ======= -->
+    <section id="popular-courses" class="courses">
       <div class="container" data-aos="fade-up">
-
         <div class="row" data-aos="zoom-in" data-aos-delay="100">
+
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-            <div class="member">
-              <img src="assets/img/trainers/Permis-de-conduire.jpeg" style="height: 50%;" class="img-fluid" alt="">
-              <div class="member-content">
-                <h4>Les Permis De Catégorie B</h4>
-                <!-- <span>Web Development</span> -->
-                <p>
-                  Le permis de conduire B est un document administratif qui autorise son titulaire 
-                  à conduire certains types de véhicules motorisés sur la voie publique. Il s’agit 
-                  d’une licence personnelle et non transférable et, bien qu’elle puisse être 
-                  utilisée à l’étranger, elle est valable en soi dans le pays de délivrance.
-                </p>
+            <div class="course-item">
+              <img src="assets/img/interdiction.png"   class="img-fluid" alt="...">
+              <div class="course-content">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <h4>Signalisation</h4>
+                  <p class="price">$10</p>
+                </div>
+
+                <h3><a href="interdiction.html">Interdiction</a></h3>
+                <p>quelles sont les paneaux d'interdictions et quelle sont leurs types</p>
+              </div>
+            </div>
+          </div> <!-- End Course Item-->
+
+         
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+            <div class="course-item">
+              <img src="assets/img/change" class="img-fluid" alt="...">
+              <div class="course-content">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <h4>Circulation</h4>
+                  <p class="price">$18</p>
+                </div>
+
+                <h3><a href="course-details.html">Changement de direction</a></h3>
+                <p>Quoi faire en changeant de direction, et quand on peut le faire</p>
                 
               </div>
             </div>
-          </div>
+          </div> <!-- End Course Item-->
+ <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+            <div class="course-item">
+              <img src="assets/img/ll.png" class="img-fluid" alt="...">
+              <div class="course-content">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <h4>Signalisation</h4>
+                  <p class="price">$15</p>
+                </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-            <div class="member">
-              <img src="assets/img/trainers/financer-permis-b-cpf-permis75.jpeg" class="img-fluid" alt="">
-              <div class="member-content">
-                <h4>Qui peut obtenir le permis B ?</h4>
-                <!-- <span>Marketing</span> -->
-                <p>
-                  Toute personne née au Maroc ou étrangère, mais résidant légalement dans 
-                  le pays, peut passer le test approprié pour obtenir cette certification,
-                comme dans la plupart des pays, vous devez avoir au moins 18 ans pour passer ce test.
-                </p>
-                
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-            <div class="member">
-              <img src="assets/img/trainers/veh.webp" style="height: 50%;" class="img-fluid" alt="">
-              <div class="member-content">
-                <h4>Les véhicules que vous pouvez conduire avec ce permis au Maroc ?
-                </h4>
-                <!-- <span>Content</span> -->
-                <p>
-                  Véhicules avec remorques jusqu'à 750 kg CTP ou plus de 750 kg si la charge 
-                  totale ne dépasse pas 3,5 tonnes, 
-                  Véhicules forestiers à moteur jusqu'à 3,5 
-                  tonnes et
-                  Quadricycles lourds motorisés jusqu'à 125 cm³ et 550 kg. Tricycles 
-                  motorisés de moins d'une tonne.
-
-                </p>
+                <h3><a href="events.html">Signalisation Verticale</a></h3>
+                <p>signification de chaque panneau et son importance</p>
                
               </div>
             </div>
-          </div>
-
+          </div> <!-- End Course Item-->
         </div>
 
       </div>
-    </section><!-- End Trainers Section -->
+   </section>
+    <!-- End Courses Section -->
 
   </main><!-- End #main -->
 
@@ -223,8 +237,8 @@
             <h4>Useful Links</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About Nous</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">A Propos De permis</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">About </a></li>
+              
               <li><i class="bx bx-chevron-right"></i> <a href="#">Les Types De Permis</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Coût</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Le Code De La Route</a></li>
@@ -233,9 +247,8 @@
             </ul>
           </div>
 
-        
+          
 
-         
           <div class="col-lg-4 col-md-6 footer-newsletter">
             <h4>Joindre Notre Newsletter</h4>
             <p>Si vous voulez inscrire dans notre formation,rejoindre nous maintenant: </p>
@@ -243,13 +256,13 @@
               <input type="email" name="email"><input type="submit" value="S'abonner">
             </form>
           </div>
-
+  
         </div>
       </div>
     </div>
-
+  
     <div class="container d-md-flex py-4">
-
+  
       <div class="me-md-auto text-center text-md-start">
         <div class="copyright">
           &copy; Copyright <strong><span>UDrive</span></strong>. All Rights Reserved
@@ -265,11 +278,6 @@
       </div>
     </div>
   </footer><!-- End Footer -->
-
-
-
-
-
 
   <div id="preloader"></div>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>

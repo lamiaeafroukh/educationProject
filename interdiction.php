@@ -1,3 +1,6 @@
+<?php 
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -110,6 +113,21 @@
           </li> 
              <li><a    href="pricing.html">Coût</a></li>       
           <li><a href="contact.html">Contact</a></li>
+          <li class="dropdown">
+        <p><?php 
+        
+        if(isset($_SESSION['nom'])){
+   
+                           echo  $_SESSION['nom']." ".$_SESSION['prenom'];
+                          // echo $_SESSION['id_client']; id de client
+                       }
+   
+          ?></p>
+       
+          <a href="login.php" ><span class="bi bi-person"></span></a>
+          <!-- End Profile Iamge Icon --> <ul>
+          <li><a href="deconnexion.php" ><span class="bi bi-door-open"></span></a></li></ul>
+          </li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
