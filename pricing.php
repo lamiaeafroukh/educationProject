@@ -191,8 +191,8 @@ session_start();
     <!-- ======= Breadcrumbs ======= -->
     <div class="breadcrumbs" data-aos="fade-in">
       <div class="container">
-        <h2>Pricing</h2>
-        <p>Est dolorum ut non facere possimus quibusdam eligendi voluptatem. Quia id aut similique quia voluptas sit quaerat debitis. Rerum omnis ipsam aperiam consequatur laboriosam nemo harum praesentium. </p>
+        <h2>Coût</h2>
+        
       </div>
     </div><!-- End Breadcrumbs -->
 
@@ -204,34 +204,43 @@ session_start();
 
           <div class="col-lg-6 col-md-6">
             <div class="box">
-              <h3>Free</h3>
-              <h4><sup>$</sup>0<span> / month</span></h4>
+              <h3>Gratuit</h3>
+              <h4><sup>$</sup>1<span> / Mois</span></h4>
               <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li class="na">Pharetra massa</li>
-                <li class="na">Massa ultricies mi</li>
-              </ul>
-              <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
+                <li><h4>UDRIVE</h4></li>
+                <li>Formation Pratique 100%</li>
+                <li>Commencer Votre mois Gratuit</li>
+                <li >Cours Gratuit en ligne comprend:</li>
+                <ul class="grt">
+
+                   <li >3-4 heures d'apprentissage</li>
+                  <li >Obtenez de nouvelles compétences en toute sérénité.</li>
+                  <div class="btn-wrap">
+                <a href="#" class="btn-buy" href="courses.php">Commencer Maintenant </a>
               </div>
+                </ul>
+              </ul>
+              
             </div>
           </div>
 
           <div class="col-lg-6 col-md-6 mt-4 mt-md-0">
             <div class="box featured">
               <h3>Business</h3>
-              <h4><sup>$</sup>19<span> / month</span></h4>
+              <h4><sup>dhs</sup>200<span> / Mois</span></h4>
               <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li>Pharetra massa</li>
-                <li class="na">Massa ultricies mi</li>
+                <li>UDRIVE</li>
+                <li>Vous avez atteint votre limite de cours gratuits</li>
+                <li> Voulez-Vous apprendre des cours gratuit? , </li>
+                <li>devenir membre Premuim pour ajouter des cours gratuits </li>
+                <li>
+              <div class="btn-wrap">
+                <a href="#" class="btn-buy">Essayer Premium</a>
+              </div>
+                      </li>
               </ul>
               <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
+                <a href="#" class="btn-buy">Payer Maintenant</a>
               </div>
             </div>
           </div>
