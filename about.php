@@ -205,18 +205,17 @@ session_start();
             <img src="assets/img/edu.webp" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
-            <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+            <h3>Pour vous aider à obtenir votre permis on vous propose une formation du code routier</h3>
             <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
+             Vous aurez accés aux
             </p>
             <ul>
-              <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-              <li><i class="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-              <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+              <li><i class="bi bi-check-circle"></i>cours du code de la routes</li>
+              <li><i class="bi bi-check-circle"></i> Des quiz pour vous familiariser avec le cours</li>
+              <li><i class="bi bi-check-circle"></i> et des vidéos éducatives sur tous les cours que vous avez vu</li>
             </ul>
             <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+             vous pouvez réviser ces cours quand vous voulez et à votre TIMELINE
             </p>
 
           </div>
@@ -226,7 +225,7 @@ session_start();
     </section><!-- End About Section -->
 
     <!-- ======= Counts Section ======= -->
-    <section id="counts" class="counts section-bg">
+    <!-- <section id="counts" class="counts section-bg">
       <div class="container">
 
         <div class="row counters">
@@ -254,10 +253,10 @@ session_start();
         </div>
 
       </div>
-    </section><!-- End Counts Section -->
+    </section>  End Counts Section -->
 
     <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials">
+    <!-- <section id="testimonials" class="testimonials">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -281,9 +280,9 @@ session_start();
                   </p>
                 </div>
               </div>
-            </div><!-- End testimonial item -->
+            </div> End testimonial item -->
 
-            <div class="swiper-slide">
+            <!-- <div class="swiper-slide">
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
                   <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
@@ -296,9 +295,9 @@ session_start();
                   </p>
                 </div>
               </div>
-            </div><!-- End testimonial item -->
+            </div>End testimonial item -->
 
-            <div class="swiper-slide">
+            <!-- <div class="swiper-slide">
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
                   <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
@@ -311,9 +310,9 @@ session_start();
                   </p>
                 </div>
               </div>
-            </div><!-- End testimonial item -->
+            </div>End testimonial item -->
 
-            <div class="swiper-slide">
+            <!-- <div class="swiper-slide">
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
                   <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
@@ -326,9 +325,9 @@ session_start();
                   </p>
                 </div>
               </div>
-            </div><!-- End testimonial item -->
+            </div>End testimonial item -->
 
-            <div class="swiper-slide">
+            <!-- <div class="swiper-slide">
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
                   <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
@@ -341,14 +340,14 @@ session_start();
                   </p>
                 </div>
               </div>
-            </div><!-- End testimonial item -->
+            </div>End testimonial item -->
 
-          </div>
+          <!-- </div>
           <div class="swiper-pagination"></div>
         </div>
 
       </div>
-    </section><!-- End Testimonials Section -->
+    </section>      End Testimonials Section -->  
 
   </main><!-- End #main -->
 

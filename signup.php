@@ -68,24 +68,30 @@ session_start();
                     <p class="text-center small">Entrer les information personnelle</p>
                   </div>
 
-                  <form class="row g-3 needs-validation" novalidate>
+                  <form class="row g-3 needs-validation" novalidate action="signupcheck.php" method="post">
                     <div class="col-12">
+                    
                       <label for="yourName" class="form-label">Nom</label>
-                      <input type="text" name="name" class="form-control" id="yourName" required>
+                      <input type="text" name="nom" class="form-control" id="yourName" required>
+                      <div class="invalid-feedback">Please, enter your name!</div>
+                    </div>
+                     <div class="col-12">
+                      <label for="yourfirstname" class="form-label">Prénom</label>
+                      <input type="text" name="prenom" class="form-control" id="yourfierstName" required>
                       <div class="invalid-feedback">Please, enter your name!</div>
                     </div>
 
                     <div class="col-12">
-                      <label for="yourEmail" class="form-label">Email</label>
-                      <input type="email" name="email" class="form-control" id="yourEmail" required>
+                      <label for="yourphone" class="form-label">téléphone</label>
+                      <input type="tel" name="telephone" class="form-control" id="yourphone" required>
                       <div class="invalid-feedback">Please enter a valid Email adddress!</div>
                     </div>
 
                     <div class="col-12">
-                      <label for="yourUsername" class="form-label">Nom d'utilisateur</label>
+                      <label for="yourUsername" class="form-label">Email</label>
                       <div class="input-group has-validation">
                         <span class="input-group-text" id="inputGroupPrepend">@</span>
-                        <input type="text" name="username" class="form-control" id="yourUsername" required>
+                        <input type="email" name="email" class="form-control" id="yourUsername" required>
                         <div class="invalid-feedback">Please choose a username.</div>
                       </div>
                     </div>
@@ -94,7 +100,14 @@ session_start();
                       <label for="yourPassword" class="form-label">Mot de passe</label>
                       <input type="password" name="password" class="form-control" id="yourPassword" required>
                       <div class="invalid-feedback">Please enter your password!</div>
+                      
+                   
                     </div>
+                     <?php if(isset($_SESSION['error_email'])){
+                        echo '<p class="error-message">' . $_SESSION['error_email'] . '</p>';    
+                         
+                    }
+              ?>
 
                     <div class="col-12">
                       <div class="form-check">
