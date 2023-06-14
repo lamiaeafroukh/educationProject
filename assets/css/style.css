@@ -1635,8 +1635,21 @@ section {
   list-style-type:circle;
 }
  /* login */
- #login{
-width: 10%;
+ .fa-user{
+margin-top: 0%;
 
+
+ } 
+ .smia{
+  margin-left: 30%;
+  margin-top: 15%;
+  width: 113%;
+  padding: 4%;
+  font-family: "Poppins", sans-serif;
+ }
+ .smia span{
+  margin: 2%;
+  margin-left: 2%;
+ 
 
  }

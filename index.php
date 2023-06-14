@@ -165,8 +165,16 @@ session_start();
           </li> 
           <li><a    href="pricing.php">Coût</a></li>    
           <li><a href="contact.php">Contact</a></li>
-          <li class="dropdown">
-        <p><?php 
+          <li class="dropdown" id="login">
+        
+       
+          <a href="login.php"  ><span  class="fa fa-user fa-lg"></span></a>
+          <!-- End Profile Iamge Icon -->
+          
+           <ul>
+          <li><a href="deconnexion.php" ><span class="bi bi-door-open">&nbsp Logout</span></a></li></ul>
+          </li>
+        <li ><p class="smia"><span><?php 
         
         if(isset($_SESSION['nom'])){
    
@@ -174,15 +182,10 @@ session_start();
                           // echo $_SESSION['id_client']; id de client
                        }
    
-          ?></p>
-       
-          <a href="login.php"  id="login"><span class="bi bi-person"></span></a>
-          <!-- End Profile Iamge Icon --> <ul>
-          <li><a href="deconnexion.php" ><span class="bi bi-door-open"></span></a></li></ul>
+          ?></span></p>
           </li>
-        
         </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
+        <!-- <i class="bi bi-list mobile-nav-toggle"></i> -->
 
 
 
