@@ -146,7 +146,7 @@ session_start();
     </ul>
 </li>
          
-< <li class="dropdown"><a href="#"><span>Pratique</span> <i class="bi bi-chevron-down"></i></a>
+<li class="dropdown"><a href="#"><span>Pratique</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">Tests</a></li>
               <li><a href="#">Vidéos éducatives</a></li>

@@ -196,7 +196,7 @@ session_start();
           <div class="col-lg-6 col-md-6">
             <div class="box">
               <h3>Gratuit</h3>
-              <h4><sup>$</sup>1<span> / Mois</span></h4>
+              <h4><sup>dhs</sup>0<span> / Mois</span></h4>
               <ul> 
                 <li class="cld"><h4>UDRIVE</h4></li>
                 <li class="cld">Formation Pratique 100%</li>
