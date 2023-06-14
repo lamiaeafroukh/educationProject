@@ -1,4 +1,4 @@
-<?php 
+?php 
 session_start();
 ?>
 <!DOCTYPE html>
@@ -17,7 +17,17 @@ session_start();
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
+  <link  href="bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+       <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>   
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+        
+       <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+       <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
@@ -146,79 +156,95 @@ session_start();
     </ul>
 </li>
          
-< <li class="dropdown"><a href="#"><span>Pratique</span> <i class="bi bi-chevron-down"></i></a>
+<li class="dropdown"><a href="#"><span>Pratique</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">Tests</a></li>
               <li><a href="#">Vidéos éducatives</a></li>
-              <li><a href="#">Fixer un pneu</a></li>
+              <li><a href="pneu.php">Fixer un pneu</a></li>
              
             </ul>
           </li> 
           <li><a    href="pricing.php">Coût</a></li>
           <li><a href="contact.php">Contact</a></li>
-          <li class="dropdown">
-        <p><?php 
+          <li class="dropdown" id="login">
         
-        if(isset($_SESSION['nom'])){
-   
-                           echo  $_SESSION['nom']." ".$_SESSION['prenom'];
-                          // echo $_SESSION['id_client']; id de client
-                       }
-   
-          ?></p>
        
-          <a href="login.php" ><span class="bi bi-person"></span></a>
-          <!-- End Profile Iamge Icon --> <ul>
-          <li><a href="deconnexion.php" ><span class="bi bi-door-open"></span></a></li></ul>
-          </li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
+        <a href="login.php"  ><span  class="fa fa-user fa-lg"></span></a>
+        <!-- End Profile Iamge Icon -->
+        
+         <ul>
+        <li><a href="deconnexion.php" ><span class="bi bi-door-open">&nbsp Logout</span></a></li></ul>
+        </li>
+      <li ><p class="smia"><span><?php 
+      
+      if(isset($_SESSION['nom'])){
+ 
+                         echo  $_SESSION['nom']." ".$_SESSION['prenom'];
+                        // echo $_SESSION['id_client']; id de client
+                     }
+ 
+        ?></span></p>
+        </li>
+      </ul>
+      <!-- <i class="bi bi-list mobile-nav-toggle"></i> -->
 
-      <!-- <a href="courses.php" class="get-started-btn">Get Started</a> -->
 
-    </div>
-  </header><!-- End Header -->
+
+
+      
+
+    </nav><!-- .navbar -->
+
+    <!-- <a href="courses.php" class="get-started-btn">Get Started</a> -->
+
+  </div>
+</header><!-- End Header -->
 
   
-
+        
   
-                    
+  <main  class="mn" id="main" data-aos="fade-in">
 
+    <!-- ======= Breadcrumbs ======= -->
+    <div class="breadcrumbs">
+      <div class="container">
+        <h2> Maintenance des pneus </h2>
+        <!-- <p>Est dolorum ut non facere possimus quibusdam eligendi voluptatem. Quia id aut similique quia voluptas sit quaerat debitis. Rerum omnis ipsam aperiam consequatur laboriosam nemo harum praesentium. </p> -->
+      </div>
+    </div><!-- End Breadcrumbs -->
 
+    <!-- ======= Trainers Section ======= -->
+    <section id="trainers" class="trainers">
+      <div class="container" data-aos="fade-up">
 
-
-<main id="main">
-          <section id="trainers" class="trainers">
-            <div class="container" data-aos="fade-up">
-      
-                <div class="row" data-aos="zoom-in" data-aos-delay="100">
-                 <div class="col-lg-12 col-md-6 d-flex align-items-stretch">
-                    <div class="member">
-                        <div class="member-content">
-                     <div>
-
-<h1> Comment réparer facilement son pneu crevé </h1>
-                     <video width="70%" height="70%" controls poster="assets/img/pneu.jpej">
-<source src="assets/img/pneucr.mp4" 
-type="video/mp4">
-                     </video>
-                      </div>
-                      
-                        </div>
-                    </div>
-                </div>
+        <div class="row" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-lg-6 col-md-6 d-flex align-items-stretch">
+            <div class="member">
+              <video controls poster="pneu.jpeg">
+                   <source src="assets/img/pneucr.mp4" width="80%" height="80%"  class="img-fluid" alt="">
+                </video>
+              <div class="member-content">
+                <h4>Comment réparer facilement son pneu crevé</h4>
+                <!-- <span>Web Development</span> -->
+               
                 
-                
-    
-                
-      
+              </div>
             </div>
-            </div>
-          </section>
+          </div>
+
+          
+          
+        </div>
+
+      </div>
+
+      </div>
+    </section><!-- End Trainers Section -->
+
+  </main><!-- End #main -->
 
 
-</main><!-- End #main -->
+
 
 
 

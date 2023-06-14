@@ -12,12 +12,22 @@ session_start();
   <meta content="" name="description">
   <meta content="" name="keywords">
 
-  <!-- Favicons -->
-  <link href="assets/img/logo.png" rel="icon">
+ <!-- Favicons -->
+ <link href="assets/img/logo.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
+  <link  href="bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+       <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>   
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+        
+       <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+       <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
@@ -150,14 +160,22 @@ session_start();
             <ul>
               <li><a href="#">Tests</a></li>
               <li><a href="#">Vidéos éducatives</a></li>
-              <li><a href="#">Fixer un pneu</a></li>
+              <li><a href="pneu.php">Fixer un pneu</a></li>
              
             </ul>
           </li> 
           <li><a    href="pricing.php">Coût</a></li>
           <li><a href="contact.php">Contact</a></li>
-          <li class="dropdown">
-        <p><?php 
+          <li class="dropdown" id="login">
+        
+       
+          <a href="login.php"  ><span  class="fa fa-user fa-lg"></span></a>
+          <!-- End Profile Iamge Icon -->
+          
+           <ul>
+          <li><a href="deconnexion.php" ><span class="bi bi-door-open">&nbsp Logout</span></a></li></ul>
+          </li>
+        <li ><p class="smia"><span><?php 
         
         if(isset($_SESSION['nom'])){
    
@@ -165,14 +183,16 @@ session_start();
                           // echo $_SESSION['id_client']; id de client
                        }
    
-          ?></p>
-       
-          <a href="login.php" ><span class="bi bi-person"></span></a>
-          <!-- End Profile Iamge Icon --> <ul>
-          <li><a href="deconnexion.php" ><span class="bi bi-door-open"></span></a></li></ul>
+          ?></span></p>
           </li>
         </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
+        <!-- <i class="bi bi-list mobile-nav-toggle"></i> -->
+
+
+
+
+        
+
       </nav><!-- .navbar -->
 
       <!-- <a href="courses.php" class="get-started-btn">Get Started</a> -->

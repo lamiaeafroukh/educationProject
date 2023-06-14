@@ -10,7 +10,7 @@ $_SESSION['id_client'];
 
 $servername = "localhost";
 $username = "root";
-$password = "";
+$password = "root";
 
 $conn = new PDO("mysql:host=$servername;dbname=login",
     $username, $password) ;

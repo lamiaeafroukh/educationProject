@@ -9,7 +9,7 @@ $_SESSION['telephone']=$_POST['telephone'];
 
 $servername = "localhost";
 $username = "root";
-$password = "";
+$password = "root";
 
 $conn = new PDO("mysql:host=$servername;dbname=login",
     $username, $password) ;
