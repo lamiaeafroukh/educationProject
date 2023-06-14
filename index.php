@@ -159,7 +159,14 @@ session_start();
             <ul>
               <li><a href="#">Tests</a></li>
               <li><a href="#">Vidéos éducatives</a></li>
-              <li><a href="pneu.php">Fixer un pneu</a></li>
+              <li class="dropdown"><a href="pneu.php"><span>Maintenance de la voiture</span> <i class="bi bi-chevron-right"></i></a>
+              <ul>
+          <li><a href="pneu.php">Maintenance des pneus</a></li>
+          <li><a href="#">maintenance des lumières</a></li>
+          <li><a href="#">maintenance du moteur</a></li>
+          
+        </ul>
+            </li>
              
             </ul>
           </li> 

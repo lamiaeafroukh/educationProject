@@ -1653,7 +1653,11 @@ margin-top: 0%;
  
 
  }
-video source{
-  width: 100%;
+video{
+  margin-left: 35%;
+  width: 100vh;
   height: 100%;
+}
+.pn{
+  margin-left: 50%;
 }
