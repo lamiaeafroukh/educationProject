@@ -1,7 +1,6 @@
 <?php 
 session_start();
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -56,13 +55,13 @@ session_start();
           <li><a href="index.php">Home</a></li>
           <li><a href="about.php">About</a></li>
           <!-- <li><a href="courses.php">A Propos de Permis</a></li> -->
-          <li class="dropdown"><a href="#"  class="active"href="trainers.php"><span>Les Types De Permis</span> <i class="bi bi-chevron-down"></i></a>
+          <li class="dropdown"><a href="#" href="trainers.php"><span>Les Types De Permis</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-                <li><a href="apermis.php">Les Permis De Catégorie A</a></li>   
-                <li><a href="trainers.php">Les Permis De Catégorie B</a></li>
+              <li><a href="apermis.php">Les Permis De Catégorie A</a></li>   
+              <li><a href="trainers.php">Les Permis De Catégorie B</a></li>
               <li><a href="#">Les Permis De Catégorie AM</a></li>
               <li><a href="#">Les Permis De Catégorie A1</a></li>
-           
+              
               <li><a href="#">Les Permis De Catégorie C</a></li>
               <li><a href="#">Les Permis De Catégorie D</a></li>
               <li><a href="#">Les Permis De Catégorie E B </a></li>
@@ -71,26 +70,26 @@ session_start();
               </ul>
           </li>
 
-                 
+                  
           
-       <li class="dropdown"><a href="#"  href="events.php" ><span>Le Code De La Route</span> <i class="bi bi-chevron-down"></i></a>
+<li class="dropdown"><a href="#"  href="events.php" ><span>Le Code De La Route</span> <i class="bi bi-chevron-down"></i></a>
 
-        <ul>
-          <li class="dropdown"><a href="#"><span>Signalisation</span> <i class="bi bi-chevron-right"></i></a>
-            <ul>
-              <li><a href="interdiction.php">Interdiction</a></li>
-              <li><a href="events.php">Signalisation Verticale</a></li>
-              <li><a href="#">Signalisation Horizontale</a></li>
-              <li><a href="#">Danger</a></li>
-              <li><a href="#">Obligation</a></li>
-              <li><a href="#">Directions Routières</a></li>
-              <li><a href="#">Temporaire</a></li>
-              <li><a href="#">Lignes</a></li>
-              <li><a href="#">Flèches</a></li>
-            </ul>
-          </li>
-          <li class="dropdown"><a href="#"><span>Les Feux</span><i class="bi bi-chevron-right"></i></</a>
+  <ul>
+    <li class="dropdown"><a href="#"><span>Signalisation</span> <i class="bi bi-chevron-right"></i></a>
       <ul>
+        <li><a href="interdiction.php">Interdiction</a></li>
+        <li><a href="events.php">Signalisation Verticale</a></li>
+        <li><a href="#">Signalisation Horizontale</a></li>
+        <li><a href="#">Danger</a></li>
+        <li><a href="#">Obligation</a></li>
+        <li><a href="#">Directions Routières</a></li>
+        <li><a href="#">Temporaire</a></li>
+        <li><a href="#">Lignes</a></li>
+        <li><a href="#">Flèches</a></li>
+      </ul>
+    </li>
+    <li class="dropdown" ><a href="#"><span>Les Feux</span><i class="bi bi-chevron-right"></i></a>
+     <ul>
         <li><a href="interdiction.php">Feux Tricolors</a></li>
         <li><a href="#">Feux Ronds</a></li>
         <li><a href="#">Ligne D'effet</a></li>
@@ -117,8 +116,9 @@ session_start();
 
       </ul>
   
-    </li> 
-     <li class="dropdown" ><a href="#"><span>L'Autoroute</span><i class="bi bi-chevron-right"></i></a>
+    </li>
+    
+    <li class="dropdown" ><a href="#"><span>L'Autoroute</span><i class="bi bi-chevron-right"></i></a>
      <ul>
         <li><a href="#">Vers L'Autoroute</a></li>
         <li><a href="#">Entrée</a></li>
@@ -134,18 +134,19 @@ session_start();
       </ul>
   
     </li>
-          <li><a href="#">L'Arrêt-Le Stationnement </a></li>
-          <li><a href="#">La Vitesse </a></li>
-          <li><a href="#">Les Régles de Circulation </a></li>
-          <li><a href="#">Le Croisement-le Depassement </a></li>
-        
-          <li><a href="#">Les Accidents </a></li>
-          <li><a href="#">Le Conducteur </a></li>
-          <li><a href="#">Le vehicule </a></li>
-          </ul>
-      </li>
+    <li><a href="#">L'Arrêt-Le Stationnement </a></li>
+    <li><a href="#">La Vitesse </a></li>
+    <li><a href="#">Les Régles de Circulation </a></li>
+    <li><a href="#">Le Croisement-le Depassement </a></li>
+   
+    
+    <li><a href="#">Les Accidents </a></li>
+    <li><a href="#">Le Conducteur </a></li>
+    <li><a href="#">Le vehicule </a></li>
+    </ul>
+</li>
          
-      <li class="dropdown"><a href="#"><span>Pratique</span> <i class="bi bi-chevron-down"></i></a>
+< <li class="dropdown"><a href="#"><span>Pratique</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">Tests</a></li>
               <li><a href="#">Vidéos éducatives</a></li>
@@ -153,7 +154,7 @@ session_start();
              
             </ul>
           </li> 
-          <li><a href="pricing.php">Coût</a></li> 
+          <li><a    href="pricing.php">Coût</a></li>
           <li><a href="contact.php">Contact</a></li>
           <li class="dropdown">
         <p><?php 
@@ -178,77 +179,56 @@ session_start();
 
     </div>
   </header><!-- End Header -->
-  <!--------------------------------- permis A ------------------------------------->
-  <main  class="miin" id="main" data-aos="fade-in">
 
-    <!-- ======= Breadcrumbs ======= -->
-    <div class="breadcrumbs">
-      <div class="container">
-        <h2>Qu'est-ce que le permis A pour conduire ?</h2>
-        <!-- <p>Est dolorum ut non facere possimus quibusdam eligendi voluptatem. Quia id aut similique quia voluptas sit quaerat debitis. Rerum omnis ipsam aperiam consequatur laboriosam nemo harum praesentium. </p> -->
-      </div>
-    </div><!-- End Breadcrumbs -->
+  
 
-    <!-- ======= Trainers Section ======= -->
-    <section id="trainers" class="trainers">
-      <div class="container" data-aos="fade-up">
+  
+                    
 
-        <div class="row" data-aos="zoom-in" data-aos-delay="100">
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-            <div class="member">
-              <img src="assets/img/trainers/permis-a-points.jpeg" style="height: 49%;" class="img-fluid" alt="">
-              <div class="member-content">
-                <h4>Les Permis De Catégorie A</h4>
-                <!-- <span>Web Development</span> -->
-                <p>
-                    La catégorie A du permis de conduire permet la conduite de toutes
-                     les motocyclettes et tricycles ainsi que les quadricycles 
-                     à moteur d'une puissance maximum de 15 kW.
-                </p>
+
+
+
+<main id="main">
+          <section id="trainers" class="trainers">
+            <div class="container" data-aos="fade-up">
+      
+                <div class="row" data-aos="zoom-in" data-aos-delay="100">
+                 <div class="col-lg-12 col-md-6 d-flex align-items-stretch">
+                    <div class="member">
+                        <div class="member-content">
+                     <div>
+
+<h1> Comment réparer facilement son pneu crevé </h1>
+                     <video width="70%" height="70%" controls autoplay>
+<source src="https://www.youtube.com/watch?v=Hu7gtVBv8Bc" 
+type="video/mp4">
+                     </video>
+                      </div>
+                      
+                        </div>
+                    </div>
+                </div>
                 
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-            <div class="member">
-              <img src="assets/img/permA.jpg" class="img-fluid" alt="">
-              <div class="member-content">
-                <h4>Qui peut obtenir le permis A ?</h4>
-                <!-- <span>Marketing</span> -->
-                <p>
-                    La catégorie A du permis de conduire permet la conduite de toutes
-                     les motocyclettes et tricycles ainsi que les quadricycles à
-                      moteur d’une puissance maximum de 15 kW.
-               
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-            <div class="member">
-              <img src="assets/img/moto.jpg" class="img-fluid" alt="">
-              <div class="member-content">
-                <h4>Les véhicules que vous pouvez conduire avec ce permis au Maroc ?
-                </h4>
-                <!-- <span>Content</span> -->
-                <p>
-                Le permis A permet de conduire les véhicules de type Moto,avec 
-                ou sans side-car, quelle que soit sa puissance et 
-               3 roues d'une puissance supérieure à 15 kilowatts.
-
-                </p>
                 
-              </div>
+    
+                
+      
             </div>
-          </div>
+            </div>
+          </section>
 
-        </div>
 
-      </div>
-    </section><!-- End Trainers Section -->
+</main><!-- End #main -->
 
-  </main><!-- End #main -->
+
+
+
+
+
+
+
+
+
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
@@ -258,53 +238,52 @@ session_start();
         <div class="row">
 
           <div class="col-lg-3 col-md-6 footer-contact">
-            <h3>UDRive</h3>
-            <p>
-              Rue Irfane <br>
-              Boukhalef, N° 535022<br>
-              Maroc <br><br>
-              <strong>Téléphone:</strong> +212 955488 55<br>
-              <strong>Email:</strong>udrive@gmail.com<br>
-            </p>
-          </div>
-
-          <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About Nous</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">A Propos De permis</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Les Types De Permis</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Coût</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Le Code De La Route</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Pratique</a></li>
-              
-            </ul>
-          </div>
-
-        
-
-         
-          <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Joindre Notre Newsletter</h4>
-            <p>Si vous voulez inscrire dans notre formation,rejoindre nous maintenant: </p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="S'abonner">
-            </form>
-          </div>
-
+          <h3>UDRive</h3>
+          <p>
+            Rue Irfane <br>
+            Boukhalef, N° 535022<br>
+            Maroc <br><br>
+            <strong>Téléphone:</strong> +212 955488 55<br>
+            <strong>Email:</strong>udrive@gmail.com<br>
+          </p>
         </div>
+
+        <div class="col-lg-2 col-md-6 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">About </a></li>
+       
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Les Types De Permis</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Coût</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Le Code De La Route</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Pratique</a></li>
+            </ul>
+        </div>
+
+          
+
+          
+        <div class="col-lg-4 col-md-6 footer-newsletter">
+          <h4>Joindre Notre Newsletter</h4>
+          <p>Si vous voulez inscrire dans notre formation,rejoindre nous maintenant: </p>
+          <form action="" method="post">
+            <input type="email" name="email"><input type="submit" value="S'abonner">
+          </form>
+        </div>
+
       </div>
     </div>
+  </div>
 
-    <div class="container d-md-flex py-4">
+  <div class="container d-md-flex py-4">
 
-      <div class="me-md-auto text-center text-md-start">
-        <div class="copyright">
-          &copy; Copyright <strong><span>UDrive</span></strong>. All Rights Reserved
-        </div>
-        
+    <div class="me-md-auto text-center text-md-start">
+      <div class="copyright">
+        &copy; Copyright <strong><span>UDrive</span></strong>. All Rights Reserved
       </div>
+      
+    </div>
       <div class="social-links text-center text-md-right pt-3 pt-md-0">
         <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
         <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
@@ -314,9 +293,6 @@ session_start();
       </div>
     </div>
   </footer><!-- End Footer -->
-
-
-
 
   <div id="preloader"></div>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>

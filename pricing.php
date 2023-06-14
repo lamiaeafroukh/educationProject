@@ -144,26 +144,17 @@ session_start();
   </ul>
 </li>
          
-<li class="dropdown"><a href="#"><span>Pratique</span> <i class="bi bi-chevron-down"></i></a>
+         <li class="dropdown"><a href="#"><span>Pratique</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
+              <li><a href="#">Tests</a></li>
+              <li><a href="#">Vidéos éducatives</a></li>
+              <li><a href="#">Fixer un pneu</a></li>
+             
             </ul>
           </li> 
            <li><a   class="active"  href="pricing.php">Coût</a></li>  
-          <li><a href="contact.php">Contact</a></li>
-          <li class="dropdown">
+           <li><a href="contact.php">Contact</a></li>
+           <li class="dropdown">
         <p><?php 
         
         if(isset($_SESSION['nom'])){
@@ -206,17 +197,17 @@ session_start();
             <div class="box">
               <h3>Gratuit</h3>
               <h4><sup>$</sup>1<span> / Mois</span></h4>
-              <ul>
-                <li><h4>UDRIVE</h4></li>
-                <li>Formation Pratique 100%</li>
-                <li>Commencer Votre mois Gratuit</li>
-                <li >Cours Gratuit en ligne comprend:</li>
-                <ul class="grt">
+              <ul> 
+                <li class="cld"><h4>UDRIVE</h4></li>
+                <li class="cld">Formation Pratique 100%</li>
+                <li class="cld">Commencer Votre mois Gratuit</li>
+                <li  class="cld">Cours Gratuit en ligne comprend:</li>
+                <ul >
 
-                   <li >3-4 heures d'apprentissage</li>
-                  <li >Obtenez de nouvelles compétences en toute sérénité.</li>
-                  <div class="btn-wrap">
-                <a href="#" class="btn-buy" href="courses.php">Commencer Maintenant </a>
+                   <li class="grt">3-4 heures d'apprentissage</li>
+                  <li class="grt">Obtenez de nouvelles compétences en toute sérénité.</li>
+                <div class="btn-wrap">
+                <a href="interdiction.php" class="btn-buy"> Commencer Maintenant </a>
               </div>
                 </ul>
               </ul>
@@ -230,9 +221,9 @@ session_start();
               <h4><sup>dhs</sup>200<span> / Mois</span></h4>
               <ul>
                 <li>UDRIVE</li>
-                <li>Vous avez atteint votre limite de cours gratuits</li>
-                <li> Voulez-Vous apprendre des cours gratuit? , </li>
-                <li>devenir membre Premuim pour ajouter des cours gratuits </li>
+                <li class="cld">Vous avez atteint votre limite de cours gratuits</li>
+                <li class="cld"> Voulez-Vous apprendre des cours gratuit?  </li>
+                <li class="cld">devenir membre Premuim pour ajouter des cours gratuits </li>
                 <li>
               <div class="btn-wrap">
                 <a href="#" class="btn-buy">Essayer Premium</a>

@@ -143,18 +143,18 @@ session_start();
               <li><a href="#">Le vehicule </a></li>
               </ul>
           </li>
-         
-<li class="dropdown"><a href="#"><span>Pratique</span> <i class="bi bi-chevron-down"></i></a>
+
+          <li class="dropdown"><a href="#"><span>Pratique</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
+              <li><a href="#">Tests</a></li>
+              <li><a href="#">Vidéos éducatives</a></li>
+              <li><a href="#">Fixer un pneu</a></li>
+             
             </ul>
-          </li>
+          </li> 
              <li><a    href="pricing.php">Coût</a></li>    
-          <li><a class="active"   href="contact.php">Contact</a></li>
-          <li class="dropdown">
+             <li><a class="active"   href="contact.php">Contact</a></li>
+              <li class="dropdown">
         <p><?php 
         
         if(isset($_SESSION['nom'])){

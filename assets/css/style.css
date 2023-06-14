@@ -1300,10 +1300,16 @@ section {
   background: #5fcf80;
   color: #fff;
 }
+
 .grt{
   list-style-type:square;
+  font-family: italic;
+
 }
 
+.cld{
+  font-weight: bold;
+}
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
