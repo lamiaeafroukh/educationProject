@@ -220,11 +220,12 @@ session_start();
         <div class="row" data-aos="zoom-in" data-aos-delay="100">
           <div class="col-lg-6 col-md-6 d-flex align-items-stretch">
             <div class="member">
+              <h4 class=""pn>Comment réparer facilement son pneu crevé</h4>
               <video controls poster="pneu.jpeg">
-                   <source src="assets/img/pneucr.mp4" width="80%" height="80%"  class="img-fluid" alt="">
+                   <source src="assets/img/pneucr.mp4" style="width:100%;"  class="img-fluid" alt="">
                 </video>
               <div class="member-content">
-                <h4>Comment réparer facilement son pneu crevé</h4>
+                
                 <!-- <span>Web Development</span> -->
                
                 
