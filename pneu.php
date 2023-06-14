@@ -199,8 +199,8 @@ session_start();
                      <div>
 
 <h1> Comment réparer facilement son pneu crevé </h1>
-                     <video width="70%" height="70%" controls autoplay>
-<source src="https://www.youtube.com/watch?v=Hu7gtVBv8Bc" 
+                     <video width="70%" height="70%" controls poster="assets/img/pneu.jpej">
+<source src="assets/img/pneucr.mp4" 
 type="video/mp4">
                      </video>
                       </div>

@@ -176,7 +176,7 @@ session_start();
    
           ?></p>
        
-          <a href="login.php" ><span class="bi bi-person"></span></a>
+          <a href="login.php"  id="login"><span class="bi bi-person"></span></a>
           <!-- End Profile Iamge Icon --> <ul>
           <li><a href="deconnexion.php" ><span class="bi bi-door-open"></span></a></li></ul>
           </li>
